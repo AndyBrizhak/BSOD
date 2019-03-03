@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSOD", "BSOD\BSOD.vcxproj", "{8C903B0D-8EBD-49E4-B83B-D612A5133CDB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSODprobe", "BSOD\BSOD.vcxproj", "{8C903B0D-8EBD-49E4-B83B-D612A5133CDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSOD+", "BSOD+\BSOD+.vcxproj", "{B43C4839-067F-4C6E-B68C-8C77E05DD65B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{8C903B0D-8EBD-49E4-B83B-D612A5133CDB}.Release|x64.Build.0 = Release|x64
 		{8C903B0D-8EBD-49E4-B83B-D612A5133CDB}.Release|x86.ActiveCfg = Release|Win32
 		{8C903B0D-8EBD-49E4-B83B-D612A5133CDB}.Release|x86.Build.0 = Release|Win32
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Debug|x64.ActiveCfg = Debug|x64
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Debug|x64.Build.0 = Debug|x64
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Debug|x86.Build.0 = Debug|Win32
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Release|x64.ActiveCfg = Release|x64
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Release|x64.Build.0 = Release|x64
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Release|x86.ActiveCfg = Release|Win32
+		{B43C4839-067F-4C6E-B68C-8C77E05DD65B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

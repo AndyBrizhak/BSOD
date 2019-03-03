@@ -1,12 +1,17 @@
-﻿// BSOD.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// BSOD.c 
 //
 
 #include "pch.h"
 #include <iostream>
+#include <windows.h>
 
 int main()
 {
     std::cout << "Hello World!\n"; 
+	/*HDC dc = CreateCompatibleDC(NULL);
+	SetLayout(dc, LAYOUT_RTL);
+	ScaleWindowExtEx(dc, -2147483647 - 1, -1, 1, 1, NULL);*/
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
